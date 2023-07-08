@@ -76,6 +76,9 @@ export default class Login extends Component {
                 <Input type="password" placeholder="•••••••••" />
               </div>
               <Input type="submit" />
+              <p className={Style.register}>
+                Don’t have an account? <a href="*">Register</a>
+              </p>
             </form>
           </div>
         </div>

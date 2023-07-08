@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 25px;
+  margin: 0 25px;
   padding: 25px;
-  height: 100vh;
 }
 
 /* Left side  */
@@ -19,7 +18,7 @@
 }
 
 .logo {
-  width: 440px;
+  width: 300px;
   height: 100px;
   margin: 15px 0;
 }
@@ -53,45 +52,45 @@
 }
 
 .joystick {
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: absolute;
-  top: -44px;
-  right: 0;
+  top: 25px;
+  right: 10px;
 }
 
 .author_joystick {
   display: flex;
   align-items: flex-start;
   position: relative;
+  padding: 3rem 0;
 }
 
 /*  */
 /* Right side  */
 
 .form_container {
-  width: 40%;
-  height: 100%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  margin: 30px;
+  margin: 0 10rem 3rem 0;
 }
 
 .social_networks {
-  margin: 6rem 0 1rem;
+  margin: 5rem 0 1rem;
 }
 
 .social_networks > h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
 }
 
 .social_networks > p {
   color: #8692a6;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .social_networks_icons {
@@ -108,9 +107,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 65px;
-  height: 65px;
-  padding: 15px;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
   background-color: white;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -139,7 +138,7 @@
   color: #bababa;
   font-size: 12px;
   position: relative;
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
 }
 
 .or::after {
@@ -164,5 +163,11 @@
   align-items: flex-start;
   gap: 15px;
   width: 100%;
+  color: #696f79;
+}
+
+.register {
+  font-size: 16px;
+  font-weight: 500;
   color: #696f79;
 }
