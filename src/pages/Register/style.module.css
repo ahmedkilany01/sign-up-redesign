@@ -1,18 +1,18 @@
-.login_container {
+.register_container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 2rem;
+  justify-content: space-between;
 }
 
 /* Left side  */
 
 .left_side {
   width: 40%;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: #1565d8;
   align-self: start;
 }
 
@@ -23,13 +23,13 @@
 
 .logo_container p {
   font-family: "Righteous", cursive;
-  font-size: 72px;
-  color: #1565d8;
+  font-size: 16px;
+  color: #ffffff;
   margin: 0 0 2rem 0;
 }
 
 .logo {
-  height: 100px;
+  height: 57px;
   margin: 15px 0;
 }
 
@@ -42,11 +42,11 @@
 }
 
 .quote svg {
-  height: 35px;
+  width: 27px;
+  color: #00daf7;
 }
 
 .quote_p {
-  font-style: italic;
   line-height: 2;
 }
 
@@ -58,25 +58,10 @@
 .quote_p,
 .quote_author {
   font-size: 20px;
-  color: #696f79;
+  color: #ffffff;
 }
 
-.joystick {
-  width: 350px;
-  height: 410px;
-  position: absolute;
-  top: 25px;
-  right: -25px;
-}
-
-.author_joystick {
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  padding: 3rem 0;
-}
-
-/*  */
+/* ToDo: edit this styls and add bg image to the left side */
 /* Right side  */
 
 .form_container {
@@ -86,7 +71,7 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  margin: 0 10rem 3rem 0;
+  margin: 2rem 10rem 3rem 0;
 }
 
 .social_networks {
@@ -146,7 +131,7 @@
   color: #bababa;
   font-size: 12px;
   position: relative;
-  margin: 0 0 3rem;
+  margin: 0 0 2px;
 }
 
 .or::after {

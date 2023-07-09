@@ -8,7 +8,10 @@ export default class Login extends Component {
     return (
       <div className={Style.login_container}>
         <div className={Style.left_side}>
-          <img src="/assets/logo.svg" alt="Logo" className={Style.logo} />
+          <div className={Style.logo_container}>
+            <img src="/assets/logo.svg" alt="Logo" className={Style.logo} />
+            <p>Gamers</p>
+          </div>
           <div className={Style.quote}>
             <svg
               viewBox="0 0 24 24"
